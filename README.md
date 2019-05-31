@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a front-end library that is unopinionted and component based. React allows you to build custom components that are reusable in other applications. The idea is to build a component that can do one thing very well such as a list or navbar component and be able to use the same component in other applications with minor changes. React is great because it's made to handle complex changing data efficiently which is a problem many developers ran into before React.  
+
+
 - [ ] What does it mean to _think_ in react?
+
+To think in React means to think of building application in components. When given something to build, break the UI into sections based on functionally. Then build a static version using components that can do one thing very well. Next, identify the mvp of the UI state. Decide what is the minimal functionality your application needs to have. Then decide where state will live. Whenever state lives you will have to create class component. Lastly, add the data flow to update state.
 
 - [ ] Describe state.
 
+State is the default value of a component and is managed inside of the component. 
+
 - [ ] Describe props.
+
+Props are properties that get passed into the component and help configure it.
 
 ## Project Set Up
 
